@@ -1,0 +1,109 @@
+{
+    "class_id": "com-snaplogic-snap-api-sql-accounts-sqlserverdatabaseaccount",
+    "class_version": 3,
+    "migration_metadata": {
+        "source_org": "JEMS-Sandbox"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "SQL Server Account"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "advancedProperties": {
+                "value": {
+                    "acquireIncrement": {
+                        "value": 1
+                    },
+                    "autoCommit": {
+                        "value": true
+                    },
+                    "batchSize": {
+                        "value": 50
+                    },
+                    "checkoutTimeout": {
+                        "value": 10000
+                    },
+                    "evictConnectionOnClose": {
+                        "value": false
+                    },
+                    "fetchSize": {
+                        "value": 100
+                    },
+                    "idleConnectionTestPeriod": {
+                        "value": 5
+                    },
+                    "maxIdleTime": {
+                        "value": 30
+                    },
+                    "maxPoolSize": {
+                        "value": 50
+                    },
+                    "minPoolSize": {
+                        "value": 0
+                    },
+                    "retryAttempts": {
+                        "value": 0
+                    },
+                    "urlProperties": {
+                        "value": [
+                            {
+                                "urlPropertyName": {
+                                    "value": "selectMethod"
+                                },
+                                "urlPropertyValue": {
+                                    "value": "cursor"
+                                }
+                            },
+                            {
+                                "urlPropertyName": {
+                                    "value": "trustServerCertificate"
+                                },
+                                "urlPropertyValue": {
+                                    "value": "true"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "connectionProperties": {
+                "value": {
+                    "JdbcDriversProp": {
+                        "value": []
+                    },
+                    "databaseName": {
+                        "value": "universities"
+                    },
+                    "hostname": {
+                        "value": "melchisqlserverdb.c5n8x7dgqnhq.eu-west-3.rds.amazonaws.com"
+                    },
+                    "jdbcDriverClass": {
+                        "value": "com.microsoft.sqlserver.jdbc.SQLServerDriver"
+                    },
+                    "password": {
+                        "fp": "678a67b237a2ccf87d626cbd774fe224f523b2265826539df6366088651a369d",
+                        "key": "account-cloud-managed-624ec04025d73dc5a4300e96-2022-04-07T10:43:24-217417+00:00",
+                        "sym_iv": "maXbpPvLMy0ZVl/h4wHWzw==",
+                        "sym_key": "FP9ODMGsbYXOgENmTpwmA29hGXe//KzFHUDH/LZDABhwte9UT4t8qLqsZn7laf+O2oY7f2mRZvV63uxVXoTwzjTwDHDNxD5KYm/1NymqzOywSFrpCO1e3f2cs/jRSFQmqeJWl6+YX5dvP1h5DmOr7SJd7tPVCmLDYJfPscMDwTC8z1wbH1Dzg3KqRvPvHOCzd6JQFF+erY/XtdAdQdoaJaYxTeX3DsMTVFNTioLOVwomNqYQguRUVvwtTSuZrPK6r1IGlJq2LQXT5f5UopZb/heI64ImVN5wyFSW4PD+UjQNaxTx85IOo20Bv4XRPjkto0gWdGPYoIcBBGef6MhrbA==",
+                        "value": "Z2l9ixB+gy4e8TvSM2pNKA=="
+                    },
+                    "portNumber": {
+                        "value": 1433
+                    },
+                    "username": {
+                        "value": "melchi"
+                    },
+                    "version": {
+                        "value": "SQLSERVER2008"
+                    }
+                }
+            }
+        },
+        "view_serial": 100
+    }
+}
